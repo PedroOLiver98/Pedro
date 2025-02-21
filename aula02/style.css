@@ -6,41 +6,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    height: 125px;
-    width: 100%;    
-}
 
 body {
-
-    margin: 0;
-
-    font-family: Arial, sans-serif;
-
+    font-family: "Encode-sans", serif;
+    padding: 0px 140px 0px 195px;
 }
 
-
-nav {
-
-    background-color: white;
-
+header {
+    height: 125px;
+    width: 100%;
 }
 
-figure {
-
-    text-align: center;
-
-}
 header figure {
     text-align: center;
     height: 80px;
-    width: 100%;
+    width: 100px;
 }
+
 header figure img {
     width: 171px;
     height: 36px;
     margin: 22px 0px;
 }
+
 li a {
     text-align: center;
     font-size: 19px;
@@ -49,16 +37,18 @@ li a {
     line-height: normal;
     text-decoration: none;
 }
+
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-
 }
+
 main,
 section {
     width: 50%;
 }
+
 aside {
     width: 25%;
 }
